@@ -57,7 +57,7 @@ function Sidenav() {
           to={"/about"}
           className="hover:bg-[#6556cd] hover:text-white rounded-lg duration-300 p-5 flex items-center"
         >
-          <i className="mr-2 ri-information-fill"></i>StreamSphere
+          <i className="mr-2 ri-information-fill"></i>About StreamSphere
         </Link>
         <Link
           to={"/contact"}
