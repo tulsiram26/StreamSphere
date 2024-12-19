@@ -7,7 +7,7 @@ import { store } from "./store/store.jsx";
 
 createRoot(document.getElementById("root")).render(
   <Provider store ={store}>
-    <BrowserRouter basename="/StreamSphere">
+    <BrowserRouter >
       <App />
     </BrowserRouter>
   </Provider>
