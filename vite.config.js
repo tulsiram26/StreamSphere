@@ -8,4 +8,9 @@ export default defineConfig({
   server: {
     historyApiFallback: true,
   },
+  resolve: {
+    alias: {
+      '@': '/src', // Ensure this points to your 'src' folder
+    },
+  },
 })
